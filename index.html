@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Diana Lee Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="nav-bar">
+            <div class="logo">Diana Lee Celestra</div>
+            <div>
+                <ul class="nav-to">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <li></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="burger-bar">
+            <div class="logo">Diana Lee Celestra</div>
+            <div class="burger-menu">
+                <div class="burger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-to">
+                    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+                </div>
+            </div>
+        </nav>
+        
+        <section id="home">
+            <div class="pfp">
+                <img src="img/me.jpg" alt="Diana Lee">
+            </div>
+            <div class="home-text">
+                <h1>Hi, I'm <span>Diana</span></h1>
+                <h3 class="typing-text">I'm a <span></span></h3>
+                <p>20-year-old working student studying Information System at Technological University of the Philippines.</p>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/diana-lee-celestra-097149333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dianaleecelestra"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/nctshoe"><i class="fa-brands fa-facebook"></i></a>
+                    <button class="btn btn-color-2" onclick="window.open('assets/Celestra_Resume.pdf')">Download Resume</button>
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
