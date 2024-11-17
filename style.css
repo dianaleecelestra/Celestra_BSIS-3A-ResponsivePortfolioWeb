@@ -242,42 +242,99 @@ a :hover{
     box-shadow: 0  0 25px #88527F;
 }
 
-  /*buttons*/
   
-  .btn-container {
+.btn-container {
     display: flex;
     justify-content: center;
     gap: 1rem;
   }
   
-  .btn {
+.btn {
     font-weight: 600;
-    transition: all 300ms ease;
     padding: 1rem;
     width: 8rem;
+    height: 4rem;
+    border: 0.2rem solid #88527F;
     border-radius: 2rem;
-    background-color: #92BCEA;
+    background-color: #AFB3F7;
+    transition: 0.3s ease;
+    color: #171A21;
+  }
+
+  .btn:hover{
+    color: #92BCEA;
+    background-color: #88527F;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #88527F;
+    box-shadow: 0  0 25px #88527F;
   }
   
-  .btn-color {
+.btn-color {
     border: rgb(53, 53, 53) 0.1rem solid;
   }
   
-  .btn-color:hover {
+.btn-color:hover {
     cursor: pointer;
   }
   
-  .btn-color {
+.btn-color {
     background-color: rgb(53, 53, 53);
     color: #92BCEA;
   }
   
-  .btn-color:hover {
+.btn-color:hover {
     background-color: #8e5872;
   }
   
   
-  .btn-container {
+.btn-container {
     gap: 1rem;
   }
+
+  .about h2 {
+    font-size: 3.5rem;
+    color: #88527F;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about p {
+    font-size: 2rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+/* Skills and Programming Languages */
+.skills, .programming-languages {
+    margin-top: 3rem;
+}
+
+.skills h3, .programming-languages h3 {
+    font-size: 2.8rem;
+    color: #88527F;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.skill, .language {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.progress-bar {
+    width: 50%;
+    margin: 0 auto;
+    height: 1.5rem;
+    background-color: #444;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.progress-bar div {
+    height: 100%;
+    background-color: #88527F;
+    transition: width 1s ease;
+    width: 0%;
+}
   
