@@ -32,33 +32,32 @@
 
 @media screen and (max-width: 600px) {
   .nav-to {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
+    flex-direction: column; /* Stack navigation items vertically */
+    gap: 0.5rem; /* Add space between items */
+    text-align: center; /* Center navigation links */
   }
 
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Adjust logo font size for mobile */
   }
 
   #home {
-    height: 85vh;
-    margin-bottom: 0;
+    height: 85vh; /* Adjust home section height */
+    margin-bottom: 0; /* Remove margin */
   }
 
   .pfp {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
+    width: auto; /* Let width adjust automatically */
+    height: 46vw; /* Use viewport width for height */
+    justify-content: center; /* Center profile image */
   }
 
   .home-text {
-    font-size: 1.25rem;
+    font-size: 1.25rem; /* Reduce font size for home text */
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 2rem; /* Reduce title font size */
   }
-
-  
 }
+  
