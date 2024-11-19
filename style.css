@@ -32,6 +32,7 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 3rem;
+    color: #AFB3F7;
 }
 
 a :hover{
@@ -358,6 +359,11 @@ a :hover{
 
 .project:hover {
   transform: translateY(-7px);
+}
+
+.section-title{
+  font-size: 3rem;
+  text-align: center;
 }
 
 .project-description {
