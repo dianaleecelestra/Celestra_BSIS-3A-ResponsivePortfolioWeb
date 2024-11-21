@@ -186,7 +186,7 @@ a :hover{
 
 .typing-text span::before{
   content: "student";
-  color: #88527F;
+  color: #36213E;
   animation: words 20s infinite;
 }
 
@@ -202,7 +202,7 @@ a :hover{
 
 @keyframes cursor{
   to{
-      border-left: 3px solid #88527F;
+      border-left: 3px solid #36213E;
   }
 }
 
@@ -232,7 +232,7 @@ a :hover{
   width: 5rem;
   height: 5rem;
   background-color: transparent;
-  border: 0.2rem solid #88527F;
+  border: 0.2rem solid #36213E;
   font-size: 2rem;
   border-radius: 50%;
   margin: 3rem 1.5rem 3rem 0;
@@ -242,8 +242,8 @@ a :hover{
 .icons a:hover {
     color: #92BCEA;
     transform: scale(1.3) translateY(-5px);
-    background-color: #88527F;
-    box-shadow: 0  0 25px #88527F;
+    background-color: #36213E;
+    box-shadow: 0  0 25px #36213E;
 }
 
   
@@ -258,7 +258,7 @@ a :hover{
     padding: 1rem;
     width: 8rem;
     height: 4rem;
-    border: 0.2rem solid #88527F;
+    border: 0.2rem solid #36213E;
     border-radius: 2rem;
     background-color: #AFB3F7;
     transition: 0.3s ease;
@@ -267,10 +267,10 @@ a :hover{
 
   .btn:hover{
     color: #92BCEA;
-    background-color: #88527F;
+    background-color: #36213E;
     transform: scale(1.3) translateY(-5px);
-    background-color: #88527F;
-    box-shadow: 0  0 25px #88527F;
+    background-color: #36213E;
+    box-shadow: 0  0 25px #36213E;
   }
   
 .btn-color {
@@ -287,7 +287,7 @@ a :hover{
   }
   
 .btn-color:hover {
-    background-color: #8e5872;
+    background-color: #36213E;
   }
   
   
@@ -297,7 +297,7 @@ a :hover{
 
   .about h2 {
     font-size: 4rem;
-    color: #88527F;
+    color: #36213E;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -315,7 +315,7 @@ a :hover{
 
 .skills h3, .programming-languages h3 {
     font-size: 2rem;
-    color: #88527F;
+    color: #36213E;
     text-align: center;
     margin-bottom: 1.5rem;
 }
@@ -336,7 +336,7 @@ a :hover{
 
 .progress-bar div {
     height: 100%;
-    background-color: #88527F;
+    background-color: #36213E;
     transition: width 1s ease;
     width: 0%;
 }
